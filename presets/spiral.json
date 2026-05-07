@@ -1,0 +1,65 @@
+{
+  "name": "spiral",
+  "description": "Full 7-stage spiral: seed → metamorphosis → fire → reflection → grounding → expression → transcendence + operators",
+  "from": "mythos",
+  "gloss": "full spiral · all stages pulse · seed through transcendence · operators alive",
+  "tokens": [
+    {"r":0, "c":8,  "label":"🌀", "pulse":1},
+
+    {"r":1, "c":3,  "label":"🌱", "pulse":1},
+    {"r":1, "c":8,  "label":"💧", "pulse":1},
+    {"r":1, "c":16, "label":"0→1", "pulse":1},
+    {"r":1, "c":22, "label":"ε→δ", "pulse":1},
+    {"r":1, "c":28, "label":"ב",  "pulse":1},
+
+    {"r":4, "c":3,  "label":"🦋", "pulse":1},
+    {"r":4, "c":8,  "label":"🌬", "pulse":1},
+    {"r":4, "c":14, "label":"💫", "pulse":1},
+    {"r":4, "c":20, "label":"Δx/Δy", "pulse":1},
+    {"r":4, "c":26, "label":"נ",  "pulse":1},
+
+    {"r":8, "c":3,  "label":"🔥", "pulse":1},
+    {"r":8, "c":8,  "label":"⚡", "pulse":1},
+    {"r":8, "c":14, "label":"Σ",  "pulse":1},
+    {"r":8, "c":20, "label":"∫",  "pulse":1},
+    {"r":8, "c":26, "label":"ש",  "pulse":1},
+
+    {"r":12, "c":3,  "label":"🌙", "pulse":1},
+    {"r":12, "c":8,  "label":"💭", "pulse":1},
+    {"r":12, "c":14, "label":"🔮", "pulse":1},
+    {"r":12, "c":20, "label":"sin θ", "pulse":1},
+    {"r":12, "c":26, "label":"י",  "pulse":1},
+
+    {"r":16, "c":3,  "label":"⚓", "pulse":1},
+    {"r":16, "c":8,  "label":"🪨", "pulse":1},
+    {"r":16, "c":14, "label":"|x|", "pulse":1},
+    {"r":16, "c":20, "label":"🛖", "pulse":1},
+    {"r":16, "c":26, "label":"מ",  "pulse":1},
+
+    {"r":20, "c":14, "label":"✦"},
+
+    {"r":22, "c":3,  "label":"🎭", "pulse":1},
+    {"r":22, "c":8,  "label":"🗣", "pulse":1},
+    {"r":22, "c":14, "label":"f(x)", "pulse":1},
+    {"r":22, "c":20, "label":"🖌", "pulse":1},
+    {"r":22, "c":26, "label":"פ",  "pulse":1},
+
+    {"r":26, "c":3,  "label":"✨", "pulse":1},
+    {"r":26, "c":8,  "label":"♾",  "pulse":1},
+    {"r":26, "c":14, "label":"e^iπ", "pulse":1},
+    {"r":26, "c":20, "label":"🕊", "pulse":1},
+    {"r":26, "c":26, "label":"Ω",  "pulse":1},
+
+    {"r":28, "c":6,  "label":"∵",  "pulse":1},
+    {"r":28, "c":14, "label":"λ",  "pulse":1},
+    {"r":28, "c":22, "label":"∴",  "pulse":1},
+    {"r":29, "c":10, "label":"∈",  "pulse":1},
+    {"r":29, "c":18, "label":"⊂",  "pulse":1},
+    {"r":30, "c":6,  "label":"⟬",  "pulse":1},
+    {"r":30, "c":14, "label":"★",  "pulse":1},
+    {"r":30, "c":22, "label":"⟭",  "pulse":1},
+    {"r":31, "c":6,  "label":"⟲",  "pulse":1},
+    {"r":31, "c":14, "label":"→",  "pulse":1},
+    {"r":31, "c":22, "label":"↔",  "pulse":1}
+  ]
+}

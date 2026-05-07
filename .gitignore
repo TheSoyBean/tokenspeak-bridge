@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+inbox.json
+outbox.json
+*.tmp
+training/

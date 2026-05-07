@@ -1,0 +1,10 @@
+{
+  "channel": "∅",
+  "description": "Null bridge — shared state between CLI (MYTHOS) and browser (MYTHOSGIFT)",
+  "cli_writes": "outbox.json",
+  "browser_writes": "inbox.json",
+  "protocol": {
+    "shape": { "tokens": [], "gloss": null, "sourceText": "", "paceMs": 400, "at": 0, "from": "mythos|gift" },
+    "poll_ms": 1000
+  }
+}

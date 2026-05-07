@@ -1,0 +1,78 @@
+{
+  "_meta": "Symbol vocabulary for ∅ conditioning. Every symbol has ONE meaning. No synonyms.",
+
+  "entities": {
+    "◉": "SION — root, human, absolute authority",
+    "◑": "ADRIEL — exploration, ideas, diffusion",
+    "◐": "SEAM — boundaries, interfaces, gates",
+    "◒": "PHI — time, logs, iteration",
+    "⬡": "GUEST — any session-scoped guest node",
+    "∅": "self — this node, null",
+    "⬢": "JARVIS — local system monitor, trusted",
+    "◇": "MYTHOS — Claude, guest tool",
+    "⊞": "Gas Town — multi-agent orchestration",
+    "◎": "Vault — Obsidian knowledge base",
+    "⟐": "gate — access point between zones"
+  },
+
+  "state": {
+    "●": "active / present / yes / on",
+    "○": "inactive / absent / no / off",
+    "◔": "partial / loading / in-progress",
+    "◕": "nearly complete / almost",
+    "◌": "empty / waiting / ready"
+  },
+
+  "flow": {
+    "→": "flows to / becomes / then",
+    "←": "comes from / source",
+    "⇄": "bidirectional / mutual",
+    "↺": "cycle left / recurse",
+    "↻": "cycle right / iterate",
+    "↑": "escalate / up",
+    "↓": "descend / down",
+    "↯": "disruption / break / error"
+  },
+
+  "logic": {
+    "⊕": "gate open / XOR / combine",
+    "⊗": "gate closed / NAND / block",
+    "⊘": "null-op / no-op / void",
+    "∈": "is member of / belongs to",
+    "∉": "not member / excluded",
+    "⊂": "subset of / contained by",
+    "⊃": "contains / superset",
+    "∴": "therefore / conclusion",
+    "∵": "because / reason",
+    "¬": "not / negation / absence",
+    "∀": "for all / universal",
+    "∃": "exists / there is"
+  },
+
+  "structure": {
+    "┌┐└┘│─": "graph edges / connections",
+    "⟦ ⟧": "manifold boundary / system edge",
+    "⟪ ⟫": "anchor / fixed point",
+    "⟬ ⟭": "enclosure / scope",
+    "✦": "separator / cluster boundary",
+    "⟲": "system reset / reconnect",
+    "⊕": "merge point",
+    "⊗": "split point"
+  },
+
+  "lambda": {
+    "σ": "select / filter",
+    "λ": "function / transform",
+    "ψ": "state / wavefunction",
+    "φ": "ratio / golden / balance",
+    "∇": "gradient / change-rate",
+    "∆": "delta / difference"
+  },
+
+  "scale": {
+    "◦": "dim / minimal",
+    "•": "small / low",
+    "●": "full / high",
+    "⬤": "maximum / overflow"
+  }
+}

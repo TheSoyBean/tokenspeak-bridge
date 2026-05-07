@@ -1,0 +1,79 @@
+{
+  "name": "lattice",
+  "description": "Full lattice: every row band populated, all operator rows, three column zones, ✦ separators",
+  "from": "mythos",
+  "gloss": "full lattice · objects through abstractions · all operators · ⟬enclosed⟭ · ∵→∴ inference · flow complete",
+  "tokens": [
+    {"r":0,  "c":5,  "label":"👤", "pulse":1},
+    {"r":0,  "c":16, "label":"🌍"},
+    {"r":0,  "c":26, "label":"∞"},
+
+    {"r":2,  "c":3,  "label":"🧠"},
+    {"r":2,  "c":10, "label":"📦"},
+    {"r":2,  "c":18, "label":"🔑"},
+    {"r":2,  "c":26, "label":"⚙"},
+
+    {"r":5,  "c":5,  "label":"🌱"},
+    {"r":5,  "c":14, "label":"🪨"},
+    {"r":5,  "c":22, "label":"💎"},
+
+    {"r":8,  "c":3,  "label":"🔥"},
+    {"r":8,  "c":10, "label":"💧"},
+    {"r":8,  "c":18, "label":"🌬"},
+    {"r":8,  "c":26, "label":"⚡"},
+
+    {"r":10, "c":14, "label":"✦"},
+
+    {"r":11, "c":5,  "label":"💬", "pulse":1},
+    {"r":11, "c":16, "label":"👁"},
+    {"r":11, "c":26, "label":"📡"},
+
+    {"r":14, "c":3,  "label":"⚔"},
+    {"r":14, "c":10, "label":"🛡"},
+    {"r":14, "c":18, "label":"🔄"},
+    {"r":14, "c":26, "label":"⏳"},
+
+    {"r":17, "c":5,  "label":"🚀"},
+    {"r":17, "c":14, "label":"🔒"},
+    {"r":17, "c":22, "label":"🔓"},
+
+    {"r":20, "c":14, "label":"✦"},
+
+    {"r":21, "c":5,  "label":"🤝", "pulse":1},
+    {"r":21, "c":16, "label":"👥"},
+    {"r":21, "c":26, "label":"🕸"},
+
+    {"r":23, "c":3,  "label":"⚖"},
+    {"r":23, "c":10, "label":"🔗"},
+    {"r":23, "c":18, "label":"↹"},
+    {"r":23, "c":26, "label":"⊕"},
+
+    {"r":25, "c":14, "label":"✦"},
+
+    {"r":26, "c":5,  "label":"φ", "pulse":1},
+    {"r":26, "c":14, "label":"π"},
+    {"r":26, "c":22, "label":"e^iπ"},
+
+    {"r":27, "c":3,  "label":"∀"},
+    {"r":27, "c":10, "label":"∃"},
+    {"r":27, "c":18, "label":"¬"},
+    {"r":27, "c":26, "label":"⊢"},
+
+    {"r":28, "c":14, "label":"✦"},
+
+    {"r":29, "c":3,  "label":"∈", "pulse":1},
+    {"r":29, "c":10, "label":"⊂", "pulse":1},
+    {"r":29, "c":18, "label":"∪", "pulse":1},
+    {"r":29, "c":26, "label":"∩", "pulse":1},
+
+    {"r":30, "c":3,  "label":"⟬", "pulse":1},
+    {"r":30, "c":10, "label":"∀x", "pulse":1},
+    {"r":30, "c":18, "label":"∃x", "pulse":1},
+    {"r":30, "c":26, "label":"⟭", "pulse":1},
+
+    {"r":31, "c":3,  "label":"⟲", "pulse":1},
+    {"r":31, "c":10, "label":"→", "pulse":1},
+    {"r":31, "c":18, "label":"↔", "pulse":1},
+    {"r":31, "c":26, "label":"↯", "pulse":1}
+  ]
+}
