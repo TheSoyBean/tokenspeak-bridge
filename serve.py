@@ -339,8 +339,53 @@ class Handler(BaseHTTPRequestHandler):
             self._serve_file(GIFT, "text/html; charset=utf-8")
         elif self.path.startswith("/bridge/outbox"):
             self._serve_file(OUTBOX, "application/json")
+        elif self.path == "/status/quick":
+            self._serve_quick_status()
+        elif self.path == "/presets":
+            self._serve_presets_list()
+        elif self.path.startswith("/presets/"):
+            name = self.path.split("/presets/", 1)[1].rstrip("/")
+            if not name.isalnum() and name not in ("sion-live", "dream-04", "7curses"):
+                self._respond(400, b'{"error":"bad preset name"}')
+                return
+            preset_path = BRIDGE / "presets" / f"{name}.json"
+            self._serve_file(preset_path, "application/json")
         else:
             self._respond(404, b'{"error":"not found"}')
+
+    def _serve_quick_status(self):
+        """Lightweight status for UI — no auth required."""
+        try:
+            battery = asdict(collect_battery())
+            thermals = [asdict(z) for z in collect_thermals()]
+            uptime = asdict(collect_uptime())
+            services = {}
+            for svc in ("tokenspeak-bridge", "lattice-power", "sion-ear",
+                        "jarvis", "swarm-os"):
+                services[svc] = _service_active(svc)
+            services["ollama"] = _service_active("ollama", user=False)
+            ds4_connected = Path("/dev/input/event25").exists()
+            data = {
+                "battery": battery,
+                "thermals": thermals,
+                "uptime": uptime,
+                "services": services,
+                "ds4": ds4_connected,
+                "at": int(time.time() * 1000),
+            }
+            self._respond(200, json.dumps(data).encode())
+        except Exception as e:
+            self._respond(500, json.dumps({"error": str(e)}).encode())
+
+    def _serve_presets_list(self):
+        """List available presets."""
+        try:
+            presets = sorted(
+                p.stem for p in (BRIDGE / "presets").glob("*.json")
+            )
+            self._respond(200, json.dumps(presets).encode())
+        except Exception as e:
+            self._respond(500, json.dumps({"error": str(e)}).encode())
 
     def do_POST(self):
         if not self._check_origin():
