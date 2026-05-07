@@ -1,0 +1,23 @@
+[Unit]
+Description=∅ tokenspeak bridge server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/sawyer/lattice/seam/tokenspeak-bridge/serve.py 7777
+Restart=on-failure
+RestartSec=2
+
+MemoryMax=1G
+MemoryHigh=900M
+
+NoNewPrivileges=yes
+ProtectSystem=strict
+PrivateTmp=yes
+ProtectKernelTunables=yes
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=tokenspeak-bridge
+
+[Install]
+WantedBy=default.target
