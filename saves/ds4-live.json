@@ -1,0 +1,82 @@
+{
+  "tokens": [
+    {
+      "r": 0,
+      "c": 14,
+      "label": "SWARM",
+      "pulse": 1
+    },
+    {
+      "r": 0,
+      "c": 16,
+      "label": "OS",
+      "pulse": 1
+    },
+    {
+      "r": 1,
+      "c": 15,
+      "label": "×3"
+    },
+    {
+      "r": 3,
+      "c": 12,
+      "label": "SION"
+    },
+    {
+      "r": 3,
+      "c": 13,
+      "label": "→"
+    },
+    {
+      "r": 3,
+      "c": 14,
+      "label": "JARVIS"
+    },
+    {
+      "r": 3,
+      "c": 15,
+      "label": "→"
+    },
+    {
+      "r": 3,
+      "c": 16,
+      "label": "MYTHOS"
+    },
+    {
+      "r": 20,
+      "c": 8,
+      "label": "jarvis",
+      "pulse": 1
+    },
+    {
+      "r": 20,
+      "c": 11,
+      "label": "gastown"
+    },
+    {
+      "r": 20,
+      "c": 14,
+      "label": "swarm-os",
+      "pulse": 1
+    },
+    {
+      "r": 30,
+      "c": 12,
+      "label": "→"
+    },
+    {
+      "r": 30,
+      "c": 14,
+      "label": "⊕"
+    },
+    {
+      "r": 30,
+      "c": 16,
+      "label": "∴"
+    }
+  ],
+  "gloss": "swarm-os live · 3 nodes",
+  "from": "swarm-os",
+  "at": 1778146415389,
+  "saved": "2026-05-07T03:33:39-06:00"
+}

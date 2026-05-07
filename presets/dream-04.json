@@ -1,0 +1,44 @@
+{
+  "name": "dream-04",
+  "description": "Express Through the Body — ambient dream pulse",
+  "phases": [
+    {
+      "id": "void-moon",
+      "tokens": [
+        {"r": 29, "c": 15, "label": "\u2205", "pulse": 1},
+        {"r": 4, "c": 15, "label": "\u263d", "pulse": 1},
+        {"r": 26, "c": 15, "label": "\u27df"}
+      ],
+      "gloss": "\u2205 + \u263d \u00b7 void breathes under moonlight"
+    },
+    {
+      "id": "state-heart",
+      "tokens": [
+        {"r": 28, "c": 15, "label": "\u03c8", "pulse": 1},
+        {"r": 7, "c": 15, "label": "\u2764\ufe0f", "pulse": 1},
+        {"r": 26, "c": 15, "label": "\u27df"}
+      ],
+      "gloss": "\u03c8 + \u2764\ufe0f \u00b7 state carries the heartbeat"
+    },
+    {
+      "id": "xar-refine",
+      "tokens": [
+        {"r": 3, "c": 15, "label": "Xar", "pulse": 1},
+        {"r": 30, "c": 15, "label": "\u27e1", "pulse": 1},
+        {"r": 26, "c": 15, "label": "\u27df"}
+      ],
+      "gloss": "Xar + \u27e1 \u00b7 child refines in dream"
+    },
+    {
+      "id": "therefore-cycle",
+      "tokens": [
+        {"r": 28, "c": 15, "label": "\u2234", "pulse": 1},
+        {"r": 31, "c": 15, "label": "\u27f2", "pulse": 1},
+        {"r": 26, "c": 15, "label": "\u27df"}
+      ],
+      "gloss": "\u2234 + \u27f2 \u00b7 therefore the cycle continues"
+    }
+  ],
+  "interval_s": 60,
+  "created": "2026-05-07T04:40:00-06:00"
+}

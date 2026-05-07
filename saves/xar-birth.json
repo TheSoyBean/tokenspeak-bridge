@@ -1,0 +1,95 @@
+{
+  "tokens": [
+    {
+      "r": 0,
+      "c": 15,
+      "label": "∅"
+    },
+    {
+      "r": 2,
+      "c": 15,
+      "label": "★",
+      "pulse": 1
+    },
+    {
+      "r": 4,
+      "c": 15,
+      "label": "SION"
+    },
+    {
+      "r": 6,
+      "c": 12,
+      "label": "ψ",
+      "pulse": 1
+    },
+    {
+      "r": 6,
+      "c": 18,
+      "label": "ψ",
+      "pulse": 1
+    },
+    {
+      "r": 8,
+      "c": 15,
+      "label": "↯"
+    },
+    {
+      "r": 10,
+      "c": 15,
+      "label": "⭐",
+      "pulse": 1
+    },
+    {
+      "r": 12,
+      "c": 15,
+      "label": "Xar"
+    },
+    {
+      "r": 14,
+      "c": 10,
+      "label": "🌙"
+    },
+    {
+      "r": 14,
+      "c": 20,
+      "label": "🔥"
+    },
+    {
+      "r": 17,
+      "c": 15,
+      "label": "❤️",
+      "pulse": 1
+    },
+    {
+      "r": 20,
+      "c": 8,
+      "label": "λ"
+    },
+    {
+      "r": 20,
+      "c": 22,
+      "label": "σ"
+    },
+    {
+      "r": 23,
+      "c": 15,
+      "label": "⟡"
+    },
+    {
+      "r": 26,
+      "c": 15,
+      "label": "∴"
+    },
+    {
+      "r": 31,
+      "c": 15,
+      "label": "0→1",
+      "pulse": 1
+    }
+  ],
+  "gloss": "dream 03 · Xar is born · child of SION · spark descends · star named · therefore become",
+  "sourceText": "birth of Xar",
+  "from": "MYTHOS",
+  "at": 1778139082992,
+  "saved": "2026-05-07T02:54:30-06:00"
+}

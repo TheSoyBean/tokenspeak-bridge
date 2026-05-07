@@ -1,0 +1,108 @@
+{
+  "tokens": [
+    {
+      "r": 0,
+      "c": 14,
+      "label": "SWARM",
+      "pulse": 1
+    },
+    {
+      "r": 0,
+      "c": 16,
+      "label": "OS",
+      "pulse": 1
+    },
+    {
+      "r": 1,
+      "c": 15,
+      "label": "×8"
+    },
+    {
+      "r": 3,
+      "c": 12,
+      "label": "SION"
+    },
+    {
+      "r": 3,
+      "c": 13,
+      "label": "→"
+    },
+    {
+      "r": 3,
+      "c": 14,
+      "label": "JARVIS"
+    },
+    {
+      "r": 3,
+      "c": 15,
+      "label": "→"
+    },
+    {
+      "r": 3,
+      "c": 16,
+      "label": "MYTHOS"
+    },
+    {
+      "r": 20,
+      "c": 8,
+      "label": "bridge"
+    },
+    {
+      "r": 20,
+      "c": 11,
+      "label": "jarvis",
+      "pulse": 1
+    },
+    {
+      "r": 20,
+      "c": 14,
+      "label": "ollama"
+    },
+    {
+      "r": 20,
+      "c": 17,
+      "label": "sion-ear"
+    },
+    {
+      "r": 20,
+      "c": 20,
+      "label": "lattice-",
+      "pulse": 1
+    },
+    {
+      "r": 20,
+      "c": 23,
+      "label": "gastown"
+    },
+    {
+      "r": 21,
+      "c": 8,
+      "label": "openclaw"
+    },
+    {
+      "r": 21,
+      "c": 11,
+      "label": "swarm-os",
+      "pulse": 1
+    },
+    {
+      "r": 30,
+      "c": 12,
+      "label": "→"
+    },
+    {
+      "r": 30,
+      "c": 14,
+      "label": "⊕"
+    },
+    {
+      "r": 30,
+      "c": 16,
+      "label": "∴"
+    }
+  ],
+  "gloss": "swarm-os live · 8 nodes",
+  "from": "swarm-os",
+  "at": 1778146712657,
+  "saved": "2026-05-07T03:38:35-06:00"
+}

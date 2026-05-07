@@ -1,0 +1,43 @@
+{
+  "tokens": [
+    {
+      "r": 2,
+      "c": 23,
+      "label": "SWARM",
+      "pulse": 1
+    },
+    {
+      "r": 2,
+      "c": 25,
+      "label": "OS",
+      "pulse": 1
+    },
+    {
+      "r": 2,
+      "c": 24,
+      "label": "×6"
+    },
+    {
+      "r": 2,
+      "c": 24,
+      "label": "SWARM",
+      "pulse": 1
+    },
+    {
+      "r": 2,
+      "c": 26,
+      "label": "OS",
+      "pulse": 1
+    },
+    {
+      "r": 2,
+      "c": 25,
+      "label": "×6"
+    }
+  ],
+  "gloss": "shift · Δ(0,1) · 6 tokens",
+  "sourceText": "ds4-shift",
+  "from": "ds4",
+  "at": 1778146211841,
+  "saved": "2026-05-07T03:30:11-06:00"
+}

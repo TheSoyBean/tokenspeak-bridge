@@ -1,0 +1,344 @@
+{
+  "name": "sion-live",
+  "description": "SION live status: four-corner origin, real sensor data, corner-anchored identity",
+  "from": "mythos",
+  "gloss": "SION LIVE · bat:17% DSCHG AC:ON · CPU:54°C GPU:47°C · jarvis:up sion-ear:down ollama:23mod · q:0/1 · bridge:7777 up · uptime:2h1m load:4.5 · charge:90→100",
+  "tokens": [
+    {
+      "r": 0,
+      "c": 0,
+      "label": "SION",
+      "pulse": 1
+    },
+    {
+      "r": 0,
+      "c": 31,
+      "label": "SION",
+      "pulse": 1
+    },
+    {
+      "r": 31,
+      "c": 0,
+      "label": "SION",
+      "pulse": 1
+    },
+    {
+      "r": 31,
+      "c": 31,
+      "label": "SION",
+      "pulse": 1
+    },
+    {
+      "r": 1,
+      "c": 1,
+      "label": "👤"
+    },
+    {
+      "r": 1,
+      "c": 15,
+      "label": "ESH"
+    },
+    {
+      "r": 1,
+      "c": 30,
+      "label": "🧠"
+    },
+    {
+      "r": 2,
+      "c": 2,
+      "label": "→",
+      "pulse": 1
+    },
+    {
+      "r": 2,
+      "c": 29,
+      "label": "↔",
+      "pulse": 1
+    },
+    {
+      "r": 3,
+      "c": 3,
+      "label": "🌱"
+    },
+    {
+      "r": 3,
+      "c": 15,
+      "label": "F16"
+    },
+    {
+      "r": 3,
+      "c": 28,
+      "label": "💎"
+    },
+    {
+      "r": 4,
+      "c": 10,
+      "label": "2h1m"
+    },
+    {
+      "r": 4,
+      "c": 21,
+      "label": "4.5"
+    },
+    {
+      "r": 5,
+      "c": 5,
+      "label": "🌀"
+    },
+    {
+      "r": 5,
+      "c": 15,
+      "label": "17%",
+      "pulse": 1
+    },
+    {
+      "r": 5,
+      "c": 26,
+      "label": "⚡"
+    },
+    {
+      "r": 6,
+      "c": 10,
+      "label": "DSCHG"
+    },
+    {
+      "r": 6,
+      "c": 21,
+      "label": "AC:ON"
+    },
+    {
+      "r": 8,
+      "c": 8,
+      "label": "54°C"
+    },
+    {
+      "r": 8,
+      "c": 15,
+      "label": "CPU"
+    },
+    {
+      "r": 8,
+      "c": 23,
+      "label": "47°C"
+    },
+    {
+      "r": 9,
+      "c": 15,
+      "label": "GPU"
+    },
+    {
+      "r": 10,
+      "c": 10,
+      "label": "🔒"
+    },
+    {
+      "r": 10,
+      "c": 15,
+      "label": "power"
+    },
+    {
+      "r": 10,
+      "c": 21,
+      "label": "🔓"
+    },
+    {
+      "r": 11,
+      "c": 10,
+      "label": "90"
+    },
+    {
+      "r": 11,
+      "c": 15,
+      "label": "⟷"
+    },
+    {
+      "r": 11,
+      "c": 21,
+      "label": "100"
+    },
+    {
+      "r": 13,
+      "c": 5,
+      "label": "JARVIS",
+      "pulse": 1
+    },
+    {
+      "r": 13,
+      "c": 15,
+      "label": "⟟",
+      "pulse": 1
+    },
+    {
+      "r": 13,
+      "c": 22,
+      "label": "MYTHOS"
+    },
+    {
+      "r": 14,
+      "c": 5,
+      "label": "up"
+    },
+    {
+      "r": 14,
+      "c": 22,
+      "label": "online"
+    },
+    {
+      "r": 16,
+      "c": 8,
+      "label": "∅"
+    },
+    {
+      "r": 16,
+      "c": 15,
+      "label": "ollama",
+      "pulse": 1
+    },
+    {
+      "r": 16,
+      "c": 23,
+      "label": "∅"
+    },
+    {
+      "r": 17,
+      "c": 8,
+      "label": "8b"
+    },
+    {
+      "r": 17,
+      "c": 15,
+      "label": "23mod"
+    },
+    {
+      "r": 17,
+      "c": 23,
+      "label": "null"
+    },
+    {
+      "r": 19,
+      "c": 5,
+      "label": "bridge",
+      "pulse": 1
+    },
+    {
+      "r": 19,
+      "c": 15,
+      "label": ":7777"
+    },
+    {
+      "r": 19,
+      "c": 22,
+      "label": "sion-ear"
+    },
+    {
+      "r": 20,
+      "c": 5,
+      "label": "up"
+    },
+    {
+      "r": 20,
+      "c": 15,
+      "label": "polling"
+    },
+    {
+      "r": 20,
+      "c": 22,
+      "label": "down"
+    },
+    {
+      "r": 22,
+      "c": 10,
+      "label": "Q:in"
+    },
+    {
+      "r": 22,
+      "c": 15,
+      "label": "0"
+    },
+    {
+      "r": 22,
+      "c": 21,
+      "label": "Q:out"
+    },
+    {
+      "r": 22,
+      "c": 27,
+      "label": "1"
+    },
+    {
+      "r": 24,
+      "c": 8,
+      "label": "🤝",
+      "pulse": 1
+    },
+    {
+      "r": 24,
+      "c": 23,
+      "label": "⚖"
+    },
+    {
+      "r": 26,
+      "c": 5,
+      "label": "φ",
+      "pulse": 1
+    },
+    {
+      "r": 26,
+      "c": 15,
+      "label": "ψ"
+    },
+    {
+      "r": 26,
+      "c": 26,
+      "label": "Ω"
+    },
+    {
+      "r": 28,
+      "c": 3,
+      "label": "🔥"
+    },
+    {
+      "r": 28,
+      "c": 15,
+      "label": "✦"
+    },
+    {
+      "r": 28,
+      "c": 28,
+      "label": "∞"
+    },
+    {
+      "r": 29,
+      "c": 2,
+      "label": "⟲",
+      "pulse": 1
+    },
+    {
+      "r": 29,
+      "c": 15,
+      "label": "∈",
+      "pulse": 1
+    },
+    {
+      "r": 29,
+      "c": 29,
+      "label": "∴",
+      "pulse": 1
+    },
+    {
+      "r": 30,
+      "c": 1,
+      "label": "👁"
+    },
+    {
+      "r": 30,
+      "c": 15,
+      "label": "∀"
+    },
+    {
+      "r": 30,
+      "c": 30,
+      "label": "🔑"
+    }
+  ]
+}

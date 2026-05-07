@@ -55,7 +55,39 @@ case "${1:-}" in
       echo "  $NAME — $DESC"
     done
     ;;
+  save)
+    # Save current outbox state to a named slot: bridge.sh save myslot
+    NAME="${2:?usage: bridge.sh save <name>}"
+    [[ "$NAME" =~ ^[a-zA-Z0-9_-]+$ ]] || { echo "∅ bad slot name"; exit 1; }
+    [[ -f "$OUTBOX" ]] || { echo "∅ outbox empty"; exit 1; }
+    SLOT="$BRIDGE/saves/${NAME}.json"
+    jq --arg saved "$(date -Iseconds)" '. + {saved: $saved}' "$OUTBOX" > "$SLOT"
+    echo "∅ saved → $NAME"
+    ;;
+  load)
+    # Load a saved slot back to outbox: bridge.sh load myslot
+    NAME="${2:?usage: bridge.sh load <name>}"
+    [[ "$NAME" =~ ^[a-zA-Z0-9_-]+$ ]] || { echo "∅ bad slot name"; exit 1; }
+    SLOT="$BRIDGE/saves/${NAME}.json"
+    [[ -f "$SLOT" ]] || { echo "∅ slot not found: $NAME"; exit 1; }
+    jq --arg at "$(date +%s%3N)" 'del(.saved) | .at = ($at | tonumber)' "$SLOT" > "$OUTBOX"
+    echo "∅ loaded ← $NAME"
+    ;;
+  saves)
+    # List saved slots
+    for f in "$BRIDGE"/saves/*.json; do
+      [[ -f "$f" ]] || { echo "  (none)"; break; }
+      NAME=$(basename "$f" .json)
+      GLOSS=$(jq -r '.gloss // "—"' "$f")
+      SAVED=$(jq -r '.saved // "?"' "$f")
+      echo "  $NAME — $GLOSS [$SAVED]"
+    done
+    ;;
+  refresh)
+    # Refresh sion-live preset with real sensor data and emit
+    python3 "$BRIDGE/refresh-sion-live.py" "${@:2}"
+    ;;
   *)
-    echo "usage: bridge.sh [emit|read|watch|preset|presets]"
+    echo "usage: bridge.sh [emit|read|watch|preset|presets|save|load|saves|refresh]"
     ;;
 esac
