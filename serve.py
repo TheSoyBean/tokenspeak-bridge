@@ -44,7 +44,12 @@ NODE_AUTH = QUEUE / ".node-auth"
 
 MAX_BODY = 64 * 1024  # 64KB max payload
 MAX_TOKENS = 64
-ALLOWED_ORIGINS = {f"http://127.0.0.1:{PORT}", f"http://localhost:{PORT}"}
+ALLOWED_ORIGINS = {
+    f"http://127.0.0.1:{PORT}",
+    f"http://localhost:{PORT}",
+    f"http://192.168.0.130:{PORT}",
+    f"http://peyton:{PORT}",
+}
 
 RAM_WARN_BYTES = 900 * 1024 * 1024  # 900MB
 RAM_CHECK_INTERVAL = 5  # seconds
@@ -420,6 +425,6 @@ if __name__ == "__main__":
     watchdog.start()
     log.info("RAM watchdog started (threshold=%dMB)", RAM_WARN_BYTES // (1024 * 1024))
 
-    srv = HTTPServer(("127.0.0.1", PORT), Handler)
-    log.info("∅ bridge · http://127.0.0.1:%d", PORT)
+    srv = HTTPServer(("0.0.0.0", PORT), Handler)
+    log.info("∅ bridge · http://0.0.0.0:%d", PORT)
     srv.serve_forever()
