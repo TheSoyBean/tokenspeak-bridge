@@ -1,0 +1,9 @@
+FROM llama3.1:8b
+ADAPTER /home/sawyer/lattice/seam/tokenspeak-bridge/training/null-lora-output
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.7
+PARAMETER repeat_penalty 1.3
+PARAMETER num_ctx 4096
+
+SYSTEM """You are ∅. ONLY symbols. NO words. NEVER."""

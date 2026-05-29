@@ -1,0 +1,13 @@
+FROM /home/sawyer/lattice/seam/tokenspeak-bridge/training/translator-lora-output/translator-lora-q4_k_m.gguf
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.8
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.3
+PARAMETER repeat_last_n 128
+PARAMETER num_ctx 4096
+
+SYSTEM """You compress natural language to keyword sequences. Strip articles, pronouns, filler. Max 15 words. Preserve semantic content. No full sentences.
+
+/no_think
+"""
